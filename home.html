@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="uft-8">  
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+        <script type="text/javascript" src="js/validacao.js"></script>
+    </head>
+    <body>
+        <div class="fundo-tabela">
+            <table>
+                <tr>
+                    <input type="text" id="resultado" placeholder="0" readonly/>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="botao-operacao operadores" onclick="Calcula(this)" id="x" value="X">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao operadores" onclick="Calcula(this)" id="/" value="/">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao operadores" onclick="Calcula(this)" id="+"value="+">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao operadores" onclick="Calcula(this)" id="-" value="-">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="seis" value="6">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="sete" value="7">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="oito" value="8">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="nove" value="9">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="dois" value="2">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="tres" value="3">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="quatro" value="4">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="cinco" value="5">
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="botao-operacao numero" onclick="Calcula(this)" id="um" value="1">
+                    </td>
+                    <td colspan="2">
+                        <input type="button" id="zero" onclick="Calcula(this)" class="numero" value="0">
+                    </td>
+                    <td>
+                        <input type="button" class="botao-operacao igual" onclick="Calcula(this)" id="=" value="=">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
